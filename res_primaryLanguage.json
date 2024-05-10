@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "I am Juan Camilo Peña Marín, a software developer. I currently live in Colombia, I have worked with Python, Java, kotlin, html, php, sql, laravel, databases, react and different languages ​​and tools with the ability to create innovative solutions in both the web and mobile spheres. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -19,19 +19,24 @@
           "images/portfolio/animal-shelter/p2.jpg"
         ],
         "url": "",
-        "technologies": [
+        "technologies":  [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-mysql-original",
+            "name": "Mysql"
           }
+
         ]
       },
       {
