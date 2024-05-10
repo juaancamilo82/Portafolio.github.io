@@ -58,7 +58,7 @@ class Header extends Component {
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="ph:moon-fill"
                     data-inline="false"
                     style={{
                       display: "block",

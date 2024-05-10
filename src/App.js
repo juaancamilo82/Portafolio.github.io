@@ -23,18 +23,22 @@ class App extends Component {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    document.documentElement.lang === window.$primaryLanguage
+    ? `res_primaryLanguage.json`
+    : document.documentElement.lang === window.$secondaryLanguage
+      ? `res_secondaryLanguage.json`
+      : `res_thirdLanguage.json`;
        
     this.loadResumeFromPath(resumePath);
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
+    oppositeLangIconId === window.$primaryLanguageIconId
+    ? window.$secondaryLanguageIconId
+    : oppositeLangIconId === window.$secondaryLanguageIconId
+      ? window.$thirdLanguageIconId
+      : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
       .removeAttribute("filter", "brightness(40%)");
@@ -47,7 +51,8 @@ class App extends Component {
     this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
-      window.$secondaryLanguageIconId
+      window.$secondaryLanguageIconId,
+      window.$thirdLanguageIconId
     );
   }
 
@@ -117,6 +122,22 @@ class App extends Component {
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
+          <div
+            onClick={() =>
+              this.applyPickedLanguage(
+                window.$thirdLanguage,
+                window.$thirdLanguageIconId
+              )
+            }
+            style={{ display: "inline" }}
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-spain"
+              data-inline="false"
+              id={window.$thirdLanguageIconId}
+            ></span>
+          </div>
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -138,6 +159,7 @@ class App extends Component {
       </div>
     );
   }
+  
 }
 
 export default App;
