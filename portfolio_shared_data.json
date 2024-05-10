@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Juan Camilo Peña Marín",
+      "titles": [ "Front-end Developer", "Web App Developer", "Full stack developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/juaancamilo82",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/_camilo.marin_/",
           "class": "fab fa-instagram"
         }
       ],
