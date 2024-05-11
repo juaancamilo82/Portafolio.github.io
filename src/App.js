@@ -117,25 +117,9 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$thirdLanguage,
-                window.$thirdLanguageIconId
-              )
-            }
-            style={{ display: "inline", padding: "30px" }}
-          >
-            <span
-              className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-spain"
               data-inline="false"
-              id={window.$thirdLanguageIconId}
+              id={window.$secondaryLanguageIconId}
             ></span>
           </div>
         </div>
@@ -159,7 +143,6 @@ class App extends Component {
       </div>
     );
   }
-  
 }
 
 export default App;
