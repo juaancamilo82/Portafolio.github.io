@@ -23,22 +23,17 @@ class App extends Component {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-    document.documentElement.lang === window.$primaryLanguage
-    ? `res_primaryLanguage.json`
-    : document.documentElement.lang === window.$secondaryLanguage
-      ? `res_secondaryLanguage.json`
-      : `res_thirdLanguage.json`;
-       
+      document.documentElement.lang === window.$primaryLanguage
+        ? `res_primaryLanguage.json`
+        : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
-    oppositeLangIconId === window.$primaryLanguageIconId
-    ? window.$secondaryLanguageIconId
-    : oppositeLangIconId === window.$secondaryLanguageIconId
-      ? window.$thirdLanguageIconId
-      : window.$primaryLanguageIconId;
+      oppositeLangIconId === window.$primaryLanguageIconId
+        ? window.$secondaryLanguageIconId
+        : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
       .removeAttribute("filter", "brightness(40%)");
@@ -52,7 +47,6 @@ class App extends Component {
     this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId,
-      window.$thirdLanguageIconId
     );
   }
 
