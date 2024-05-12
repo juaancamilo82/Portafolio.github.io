@@ -95,7 +95,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-us"
+              data-icon="twemoji-flag-for-flag-usa"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
