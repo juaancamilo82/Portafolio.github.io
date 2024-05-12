@@ -11,32 +11,22 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "VPN con Wireguard",
+        "startDate": "2024",
+        "description": "Cómo crear una VPN usando Wireguard y Docker",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/vpnWireguard/image.png",       
         ],
-        "url": "",
+        "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
         "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "Python"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
           },
           {
             "class": "devicon-typescript-plain",
             "name": "TypeScript"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-mysql-original",
-            "name": "Mysql"
           }
-
         ]
       },
       {
