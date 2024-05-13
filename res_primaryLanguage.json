@@ -6,8 +6,8 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience",
-        "studies": "Studies"
+        "studies": "Studies",
+        "experience": "Experience"
       }
     },
     "projects": [
@@ -82,7 +82,7 @@
     ],
     "experience": [
       {
-        "company": "Park",
+        "company": "Parkk",
         "title": "Front-End Developer",
         "years": "10.2019 - present",
         "mainTech": [
