@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portafolio.github.io/static/css/main.9aa83c8d.chunk.css",
-    "main.js": "/portafolio.github.io/static/js/main.61cab29a.chunk.js",
-    "main.js.map": "/portafolio.github.io/static/js/main.61cab29a.chunk.js.map",
+    "main.css": "/portafolio.github.io/static/css/main.37a25c52.chunk.css",
+    "main.js": "/portafolio.github.io/static/js/main.ca20a76e.chunk.js",
+    "main.js.map": "/portafolio.github.io/static/js/main.ca20a76e.chunk.js.map",
     "runtime-main.js": "/portafolio.github.io/static/js/runtime-main.3c5230b3.js",
     "runtime-main.js.map": "/portafolio.github.io/static/js/runtime-main.3c5230b3.js.map",
     "static/css/2.fd277b09.chunk.css": "/portafolio.github.io/static/css/2.fd277b09.chunk.css",
-    "static/js/2.adf1f77b.chunk.js": "/portafolio.github.io/static/js/2.adf1f77b.chunk.js",
-    "static/js/2.adf1f77b.chunk.js.map": "/portafolio.github.io/static/js/2.adf1f77b.chunk.js.map",
+    "static/js/2.1f3526cc.chunk.js": "/portafolio.github.io/static/js/2.1f3526cc.chunk.js",
+    "static/js/2.1f3526cc.chunk.js.map": "/portafolio.github.io/static/js/2.1f3526cc.chunk.js.map",
     "index.html": "/portafolio.github.io/index.html",
-    "precache-manifest.8032082af56d60a2b6ef4917ff0648be.js": "/portafolio.github.io/precache-manifest.8032082af56d60a2b6ef4917ff0648be.js",
+    "precache-manifest.9ae895ae24a3deaaf76d88ebe5d14ca1.js": "/portafolio.github.io/precache-manifest.9ae895ae24a3deaaf76d88ebe5d14ca1.js",
     "service-worker.js": "/portafolio.github.io/service-worker.js",
     "static/css/2.fd277b09.chunk.css.map": "/portafolio.github.io/static/css/2.fd277b09.chunk.css.map",
-    "static/css/main.9aa83c8d.chunk.css.map": "/portafolio.github.io/static/css/main.9aa83c8d.chunk.css.map",
-    "static/js/2.adf1f77b.chunk.js.LICENSE.txt": "/portafolio.github.io/static/js/2.adf1f77b.chunk.js.LICENSE.txt"
+    "static/css/main.37a25c52.chunk.css.map": "/portafolio.github.io/static/css/main.37a25c52.chunk.css.map",
+    "static/js/2.1f3526cc.chunk.js.LICENSE.txt": "/portafolio.github.io/static/js/2.1f3526cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c5230b3.js",
     "static/css/2.fd277b09.chunk.css",
-    "static/js/2.adf1f77b.chunk.js",
-    "static/css/main.9aa83c8d.chunk.css",
-    "static/js/main.61cab29a.chunk.js"
+    "static/js/2.1f3526cc.chunk.js",
+    "static/css/main.37a25c52.chunk.css",
+    "static/js/main.ca20a76e.chunk.js"
   ]
 }
