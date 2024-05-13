@@ -13,7 +13,7 @@
       {
         "title": "VPN con Wireguard",
         "startDate": "2024",
-        "description": "Cómo crear una VPN usando Wireguard y Docker",
+        "description": "Descubre cómo crear una VPN que permite conexiones seguras a una red privada a través de un servidor en AWS, utilizando la imagen de Docker para su despliegue. Esta solución gratuita garantiza la protección de los datos y la integridad de las comunicaciones en entornos tanto públicos como privados.",
         "images": [
           "images/portfolio/vpnWireguard/image.png"      
         ],
@@ -26,6 +26,10 @@
           {
             "class": "devicon-linux-plain",
             "name": "Linux"
+          },
+          {
+            "class": "devicon-aws-plain",
+            "name": "AWS"
           }
         ]
       },

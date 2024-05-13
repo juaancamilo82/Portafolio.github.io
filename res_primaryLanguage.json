@@ -11,30 +11,25 @@
     },
     "projects": [
       {
-        "title": "VPN With Wireguard",
+        "title": "VPN with Wireguard",
         "startDate": "2024",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Discover how to create a VPN that allows secure connections to a private network through a server in AWS, using the Docker image for deployment. This free solution ensures data protection and communications integrity in both public and private environments.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/vpnWireguard/image.png"      
         ],
-        "url": "",
-        "technologies":  [
+        "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
+        "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "Python"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-linux-plain",
+            "name": "Linux"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-mysql-original",
-            "name": "Mysql"
+            "class": "devicon-aws-plain",
+            "name": "AWS"
           }
 
         ]
