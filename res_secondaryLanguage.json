@@ -16,7 +16,7 @@
         "startDate": "2024",
         "description": "Descubre cómo crear una VPN que permite conexiones seguras a una red privada a través de un servidor en AWS, utilizando la imagen de Docker para su despliegue. Esta solución gratuita garantiza la protección de los datos y la integridad de las comunicaciones en entornos tanto públicos como privados.",
         "images": [
-          "images/portfolio/vpnWireguard/image.png"      
+          "images/portfolio/vpnWireguard/wireguard.jpg"   
         ],
         "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
         "technologies": [
