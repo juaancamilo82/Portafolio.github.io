@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import { deviconServerPlain } from '@iconify/icons-logos/devicon/server-plain';
+import { deviconHtml5Plain } from '@iconify/icons-logos/devicon/html5-plain';
+import { deviconMysqlPlain } from '@iconify/icons-logos/devicon/mysql-plain';
+
+
+
 
 class About extends Component {
   render() {
@@ -31,15 +34,15 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={deviconServerPlain}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={deviconHtml5Plain}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={deviconMysqlPlain}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
