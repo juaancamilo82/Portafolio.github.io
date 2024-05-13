@@ -10,60 +10,51 @@ class Studies extends Component {
   render() {
     if (this.props.resumeStudies && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.studies;
-      var work = this.props.resumeStudies.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+      var studies = this.props.resumeStudies.map((study, i) => {
+        const technologies = study.technologies;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
+        var techBadges = technologies.map((technology, j) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            <Badge pill className="study-badge mr-2 mb-2" key={j}>
               {technology}
             </Badge>
           );
         });
-        var tech = technologies.map((technology, i) => {
-          return (
-            <Badge pill className="studies-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
+
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={work.years}
+            className="vertical-timeline-element--study"
+            date={study.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#E07C24",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular studies-icon"></i>}
+            icon={<i className="fas fa-graduation-cap study-icon"></i>}
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
-              {mainTech}
-            </div>
-
             <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
-              {work.title}
+              {study.title}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {study.institution}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "15px" }}>
+              {techBadges}
+            </div>
           </VerticalTimelineElement>
         );
       });
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="studies" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
@@ -75,16 +66,14 @@ class Studies extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-            {work}
+            {studies}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#E07C24",
                 color: "#fff",
                 textAlign: "center",
               }}
-              icon={
-                <i className="fas fa-hourglass-start mx-auto studies-icon"></i>
-              }
+              icon={<i className="fas fa-hourglass-start mx-auto study-icon"></i>}
             />
           </VerticalTimeline>
         </div>

@@ -6,6 +6,7 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
+        "studies": "Studies",
         "experience": "Experience"
       }
     },
@@ -79,10 +80,10 @@
         ]
       }
     ],
-    "experience": [
+    "studies": [
       {
-        "company": "Park",
-        "title": "Front-End Developer",
+        "institution": "EAM",
+        "title": "Software Engineer",
         "years": "10.2019 - present",
         "mainTech": [
           "Angular 8/9/10"
@@ -100,7 +101,7 @@
         ]
       },
       {
-        "company": "Serros Solutions",
+        "institution": "Serros Solutions",
         "title": "Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": [
@@ -115,10 +116,10 @@
         ]
       }
     ],
-    "studies": [
+    "experience": [
       {
-        "company": "EAM",
-        "title": "Software Engineer",
+        "company": "Parkk",
+        "title": "Front-End Developer",
         "years": "10.2019 - present",
         "mainTech": [
           "Angular 8/9/10"

@@ -6,7 +6,8 @@
         "about": "Sobre mi",
         "projects": "Proyectos",
         "skills": "Habilidades",
-        "experience": "Experiencia"
+        "experience": "Experiencia",
+        "studies": "Estudios"
       }
     },
     "projects": [
@@ -116,7 +117,7 @@
     ],
     "studies": [
       {
-        "company": "EAM",
+        "institution": "EAM",
         "title": "Ingeniero de sofware",
         "years": "10.2019 - present",
         "mainTech": [
@@ -135,7 +136,7 @@
         ]
       },
       {
-        "company": "Serros Solutions",
+        "institution": "Serros Solutions",
         "title": "Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": [
