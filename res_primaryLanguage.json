@@ -82,7 +82,7 @@
     ],
     "studies": [
       {
-        "company": "EAM",
+        "institution": "EAM",
         "title": "Software Engineer",
         "years": "10.2019 - present",
         "mainTech": [
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "company": "Serros Solutions",
+        "institution": "Serros Solutions",
         "title": "Intern",
         "years": "01.2018 - 09.2019",
         "mainTech": [
