@@ -80,10 +80,10 @@
         ]
       }
     ],
-    "experience": [
+    "studies": [
       {
-        "company": "Parkk",
-        "title": "Front-End Developer",
+        "company": "EAM",
+        "title": "Software Engineer",
         "years": "10.2019 - present",
         "mainTech": [
           "Angular 8/9/10"
@@ -116,10 +116,10 @@
         ]
       }
     ],
-    "studies": [
+    "experience": [
       {
-        "company": "EAM",
-        "title": "Software Engineer",
+        "company": "Parkk",
+        "title": "Front-End Developer",
         "years": "10.2019 - present",
         "mainTech": [
           "Angular 8/9/10"
