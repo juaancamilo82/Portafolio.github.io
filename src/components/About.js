@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import { deviconServerPlain } from '@iconify/icons-logos/devicon/server-plain';
-import { deviconHtml5Plain } from '@iconify/icons-logos/devicon/html5-plain';
-import { deviconMysqlPlain } from '@iconify/icons-logos/devicon/mysql-plain';
-
-
+import python from "@iconify/icons-logos/python";
+import linux from "@iconify/icons-logos/appbaseio-icon";
+import server from "@iconify/icons-logos/mysql-icon";
 
 
 class About extends Component {
@@ -34,15 +32,15 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={deviconServerPlain}
+                    icon={python}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={deviconHtml5Plain}
+                    icon={linux}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={deviconMysqlPlain}
+                    icon={server}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>

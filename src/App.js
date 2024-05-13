@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
+import Studies from "./components/Studies";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -121,12 +122,16 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
         <Skills
           sharedSkills={this.state.sharedData.skills}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Studies
+          resumeExperience={this.state.sharedData.studies}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Experience
