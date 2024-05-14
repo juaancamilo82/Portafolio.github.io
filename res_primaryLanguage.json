@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "I am Juan Camilo Peña Marín, a software developer. I currently live in Colombia, I have worked with Python, Java, kotlin, html, php, sql, laravel, databases, react and different languages ​​and tools with the ability to create innovative solutions in both the web and mobile spheres. ",
+      "description_header": "Hiii",
+      "description": "I am Juan Camilo Peña Marín, a software developer. I currently live in Colombia, I have worked with Python, Java, kotlin, html, php, sql, laravel, databases, react and different languages and tools with the ability to create innovative solutions in both the web and mobile spheres. ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -10,6 +10,27 @@
         "experience": "Experience"
       }
     },
+  "studies": [
+    {
+      "institution": "EAM",
+      "title": "Software Engineer",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    }
+  ],
     "projects": [
       {
         "title": "VPN with Wireguard",
@@ -80,42 +101,7 @@
         ]
       }
     ],
-    "studies": [
-      {
-        "institution": "EAM",
-        "title": "Software Engineer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "institution": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ],
+
     "experience": [
       {
         "company": "Parkk",
