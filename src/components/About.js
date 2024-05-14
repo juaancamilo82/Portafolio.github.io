@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import python from "@iconify/icons-logos/python";
-import linux from "@iconify/icons-logos/architect";
+import linux from "@iconify/icons-logos/javascript";
 import server from "@iconify/icons-logos/mysql-icon";
 
 

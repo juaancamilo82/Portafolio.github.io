@@ -10,9 +10,17 @@ class Studies extends Component {
   render() {
     if (this.props.resumeStudies && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.studies;
-      var studies = this.props.resumeStudies.map((study, i) => {
+      var study = this.props.resumeStudies.map((study, i) => {
         const technologies = study.technologies;
+        const mainTechnologies = study.mainTech;
 
+        var mainTech = mainTechnologies.map((technology, i) => {
+          return (
+            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+              {technology}
+            </Badge>
+          );
+        });
         var techBadges = technologies.map((technology, j) => {
           return (
             <Badge pill className="study-badge mr-2 mb-2" key={j}>
@@ -33,6 +41,9 @@ class Studies extends Component {
             icon={<i className="fas fa-graduation-cap study-icon"></i>}
             key={i}
           >
+              <div style={{ textAlign: "left", marginBottom: "4px" }}>
+              {mainTech}
+            </div>
             <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
@@ -66,7 +77,7 @@ class Studies extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-            {studies}
+            {study}
             <VerticalTimelineElement
               iconStyle={{
                 background: "#E07C24",
