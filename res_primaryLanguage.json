@@ -13,9 +13,11 @@
     },
   "CV": [
     {
-      "dir": "/JuanCamiloPeñaMarinEnglish.pdf"
+      "dir": "/JuanCamiloPeñaMarinEnglish.pdf",
+      "description": "Download my resume for more details about my experience and skills in English."
     }
-  ],
+  ]
+,
   "studies": [
     {
       "institution": "EAM",
