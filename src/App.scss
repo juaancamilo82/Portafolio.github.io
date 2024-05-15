@@ -410,6 +410,14 @@ header h1 {
 	padding-bottom: 10%;
 }
 
+#cv {
+	background: #d8e3ef;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -451,4 +459,19 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+///////////////
+
+#cv {
+	text-align: center;
+}
+
+#cv .row {
+	display: flex;
+	justify-content: center;
+}
+
+#cv .main-col {
+	text-align: left;
 }

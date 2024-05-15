@@ -12,7 +12,9 @@
       }
     },
   "cv": {
-    "url": "/CV_JuanCamiloPeñaMarinEnglish.pdf"
+    "url": "https://raw.githubusercontent.com/juaancamilo82/portafolio.github.io/ca63b7aae61d693fc7a39135d7dd5691a7962b22/public/CV_JuanCamiloPe%C3%B1aMarinEnglish.pdf",
+    "description": "Download here my resume",
+    "function": "Download"
   },
   "studies": [
     {
