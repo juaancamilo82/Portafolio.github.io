@@ -11,6 +11,9 @@
         "cv": "Resume"
       }
     },
+  "CV": [
+    {"url": "/CV/JuanCamiloPeñaMarinEnglish.pdf"}
+  ],
   "studies": [
     {
       "institution": "EAM",
