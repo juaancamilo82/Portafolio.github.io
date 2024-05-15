@@ -139,7 +139,7 @@ class App extends Component {
                     resumeExperience={this.state.resumeData.experience}
                     resumeBasicInfo={this.state.resumeData.basic_info}
                 />
-                <CV sharedCV={this.state.sharedData.cv}
+                <CV resumeCV={this.state.resumeData.cv}
                     resumeBasicInfo={this.state.resumeData.basic_info}/>
 
                 <Footer sharedBasicInfo={this.state.sharedData.basic_info}/>
