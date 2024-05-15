@@ -11,6 +11,9 @@
         "cv": "Resume"
       }
     },
+  "cv": {
+    "url": "/CV_JuanCamiloPeñaMarinEnglish.pdf"
+  },
   "studies": [
     {
       "institution": "EAM",
@@ -138,7 +141,5 @@
           "DHTMLX Gantt"
         ]
       }
-    ],
-  "cv_section_name": "Resume",
-  "cv_url": "/CV_JuanCamiloPeñaMarinEnglish.pdf"
+    ]
   }

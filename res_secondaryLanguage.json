@@ -11,8 +11,8 @@
         "cv": "Hoja de vida"
       }
     },
-  "cv_urls": {
-    "english": "/CV_JuanCamiloPeñaMarinEspañol.pdf"
+  "cv": {
+    "url": "/CV_JuanCamiloPeñaMarinEspañol.pdf"
   },
     "projects": [
       {
