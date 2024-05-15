@@ -12,7 +12,9 @@
       }
     },
   "cv": {
-    "url": "/CV_JuanCamiloPeñaMarinEspañol.pdf"
+    "url": "/CV_JuanCamiloPeñaMarinEspañol.pdf",
+    "description": "/CV_JuanCamiloPeñaMarinEnglish.pdf",
+    "function": "Descargar"
   },
     "projects": [
       {
