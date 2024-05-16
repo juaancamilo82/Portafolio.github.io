@@ -13,27 +13,53 @@
     },
   "cv": {
     "url": "https://raw.githubusercontent.com/juaancamilo82/portafolio.github.io/ca63b7aae61d693fc7a39135d7dd5691a7962b22/public/CV_JuanCamiloPe%C3%B1aMarinEnglish.pdf",
-    "description": "Download here my resume",
+    "description": "Download my resume in Spanish here",
     "function": "Download"
   },
   "studies": [
     {
-      "institution": "EAM",
-      "title": "Software Engineer",
-      "years": "10.2019 - present",
+      "title": "Software engineering",
       "mainTech": [
-        "Angular 8/9/10"
+        "EAM University"
       ],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+      "date": [
+        "2019 - Actually"
+      ]
+    },
+    {
+      "title": "Technology in software development",
+      "mainTech": [
+        "EAM University"
+      ],
+      "date": [
+        "2019 - 2024"
+      ]
+    },
+    {
+      "title": "Intensive English course",
+      "mainTech": [
+        "BNC Colombo Americano"
+      ],
+      "date": [
+        "2018 - 2019"
+      ]
+    },
+    {
+      "title": "Academic Bachelor",
+      "mainTech": [
+        "Nuestra Señora de Fátima School"
+      ],
+      "date": [
+        "2017 - Finalized"
+      ]
+    },
+    {
+      "title": "Computer equipment maintenance technician",
+      "mainTech": [
+        "Sena"
+      ],
+      "date": [
+        "2016 - 2017"
       ]
     }
   ],

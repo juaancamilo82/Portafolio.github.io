@@ -7,13 +7,13 @@ class CV extends Component {
         let sectionName = '';
         let description = '';
         let downloadButtonText = '';
-        let url = '';
+
 
         if (this.props.resumeBasicInfo && this.props.resumeCV) {
             sectionName = this.props.resumeBasicInfo.section_name.cv;
             description = this.props.resumeCV.description;
             downloadButtonText = this.props.resumeCV.function;
-            url = this.props.resumeCV.url;
+
         }
 
         // Agrega el botón para descargar la hoja de vida
@@ -26,28 +26,32 @@ class CV extends Component {
         return (
             <section id="cv">
 
-                <h1 className="section-title" style={{color: "black"}}>
+                <div className="col-md-12 mx-auto">
+                    <div className="col-md-12">
+                        <h1 className="section-title" style={{color: "black"}}>
               <span className="text-black" style={{textAlign: "center"}}>
                 {sectionName}
               </span>
-                </h1>
-                <div className="text-center skills-tile">
+                        </h1>
+                    </div>
+                </div>
+
+                <div className="col-md-12 text-center">
                     <p>{description}</p>
                 </div>
+
 
                 <div className="text-center">
                     {downloadButton}
                 </div>
+
 
             </section>
         );
     }
 
     handleDownload() {
-        // URL de descarga directa del archivo
         const downloadUrl = this.props.resumeCV.url;
-
-        // Abre una nueva ventana para descargar el archivo
         window.open(downloadUrl, '_blank');
     }
 }

@@ -11,7 +11,7 @@ class Studies extends Component {
         if (this.props.resumeStudies && this.props.resumeBasicInfo) {
             var sectionName = this.props.resumeBasicInfo.section_name.studies;
             var work = this.props.resumeStudies.map(function (work, i) {
-                const technologies = work.technologies;
+                const date = work.date;
                 const mainTechnologies = work.mainTech;
 
                 var mainTech = mainTechnologies.map((technology, i) => {
@@ -21,7 +21,7 @@ class Studies extends Component {
                         </Badge>
                     );
                 });
-                var tech = technologies.map((technology, i) => {
+                var tech = date.map((technology, i) => {
                     return (
                         <Badge pill className="studies-badge mr-2 mb-2" key={i}>
                             {technology}
@@ -37,7 +37,7 @@ class Studies extends Component {
                             color: "#fff",
                             textAlign: "center",
                         }}
-                        icon={<i className="fab fa-angular study-icon"></i>}
+                        icon={<i className="fab fa-python study-icon"></i>}
                         key={i}
                     >
                         <div style={{ textAlign: "left", marginBottom: "4px" }}>

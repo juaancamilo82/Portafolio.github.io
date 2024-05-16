@@ -411,7 +411,7 @@ header h1 {
 }
 
 #cv {
-	background: #d8e3ef;
+	background: #ffffff;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -467,11 +467,24 @@ footer a:focus {
 	text-align: center;
 }
 
-#cv .row {
-	display: flex;
-	justify-content: center;
+.button {
+	display: inline-block;
+	background-color: #007bff; /* Color de fondo del botón */
+	color: #fff; /* Color del texto del botón */
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 5px; /* Bordes redondeados */
+	cursor: pointer;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+	text-decoration: none; /* Quitar subrayado del texto si es un enlace */
+	border: none; /* Sin borde */
 }
 
-#cv .main-col {
-	text-align: left;
+.download-button:hover {
+	background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.text-center {
+	text-align: center;
+	font-size: 20px; /* Tamaño de fuente más grande */
 }
