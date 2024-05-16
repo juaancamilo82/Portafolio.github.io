@@ -134,23 +134,23 @@
   ],
   "experience": [
     {
-      "title": "Pasantía",
+      "title": "Professional Practice in Software Development",
       "years": "09/2023 - 04/2024",
       "company": [
-        "Parque del Café"
+        "Coffee Park"
       ],
       "description": [
         "REST API"
       ]
     },
     {
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "title": "Customer Service and Box Office Operations at Parque del Café",
+      "years": "12/2022 - 09/2023",
       "company": [
-        "Angular 7/8"
+        "Coffee Park"
       ],
       "description": [
-        "RxJS"
+        "As a Ticket Operator at the Coffee Park, I served in a variety of key roles to ensure a satisfying visitor experience. From selling tickets in the parking lot to guiding visitors to the attractions and services available, my focus was on providing friendly and efficient service. Additionally, I managed access to the park, verifying tickets and responding to visitor inquiries in a professional and courteous manner. My commitment to customer satisfaction helped maintain a welcoming and positive environment at the park."
       ]
     }
   ]

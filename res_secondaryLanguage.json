@@ -87,7 +87,7 @@
     ],
     "experience": [
       {
-        "title": "Pasantía",
+        "title": "Práctica Profesional en Desarrollo de Software",
         "years": "09/2023 - 04/2024",
         "company": [
           "Parque del Café"
@@ -97,13 +97,13 @@
         ]
       },
       {
-        "title": "Intern",
+        "title": "Atención al Cliente y Operaciones de Taquilla en Parque del Café",
         "years": "01.2018 - 09.2019",
         "company": [
-          "Angular 7/8"
+          "Parque del café"
         ],
         "description": [
-          "RxJS"
+          "Como taquillero en el Parque del Café, me desempeñé en una variedad de funciones clave para garantizar una experiencia satisfactoria para los visitantes. Desde la venta de tiquetes en el parqueadero hasta la orientación de los visitantes sobre las atracciones y servicios disponibles, mi enfoque estaba en brindar un servicio amable y eficiente. Además, gestioné el acceso al parque, verificando las entradas y respondiendo a las consultas de los visitantes de manera profesional y cortés. Mi compromiso con la satisfacción del cliente contribuyó a mantener un ambiente acogedor y positivo en el parque."
         ]
       }
     ],
