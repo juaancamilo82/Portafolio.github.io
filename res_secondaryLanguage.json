@@ -123,12 +123,30 @@
     ],
     "studies": [
       {
-        "title": "Ingeniero de sofware",
+        "title": "Ingeniería de sofware",
         "mainTech": [
-          "EAM"
+          "Universidad EAM"
         ],
         "date": [
-         "2018 - Actualmente"
+         "2019 - Actualmente"
+        ]
+      },
+      {
+        "title": "Tecnología en desarrollo de software",
+        "mainTech": [
+          "Universidad EAM"
+        ],
+        "date": [
+          "2019 - 2024"
+        ]
+      },
+      {
+        "title": "Curso intensivo de inglés",
+        "mainTech": [
+          "BNC Colombo Americano"
+        ],
+        "date": [
+          "2018 - 2019"
         ]
       },
       {
@@ -138,6 +156,15 @@
         ],
         "date": [
           "2017 - Finalizado"
+        ]
+      },
+      {
+        "title": "Técnico en mantenimiento de equipos de computo",
+        "mainTech": [
+          "Sena"
+        ],
+        "date": [
+          "2016 - 2017"
         ]
       }
     ]
