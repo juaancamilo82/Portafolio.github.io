@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portafolio.github.io/static/css/main.d6021523.chunk.css",
-    "main.js": "/portafolio.github.io/static/js/main.bc454c4e.chunk.js",
-    "main.js.map": "/portafolio.github.io/static/js/main.bc454c4e.chunk.js.map",
+    "main.js": "/portafolio.github.io/static/js/main.e6ed9b65.chunk.js",
+    "main.js.map": "/portafolio.github.io/static/js/main.e6ed9b65.chunk.js.map",
     "runtime-main.js": "/portafolio.github.io/static/js/runtime-main.3c5230b3.js",
     "runtime-main.js.map": "/portafolio.github.io/static/js/runtime-main.3c5230b3.js.map",
     "static/css/2.fd277b09.chunk.css": "/portafolio.github.io/static/css/2.fd277b09.chunk.css",
     "static/js/2.e9e89220.chunk.js": "/portafolio.github.io/static/js/2.e9e89220.chunk.js",
     "static/js/2.e9e89220.chunk.js.map": "/portafolio.github.io/static/js/2.e9e89220.chunk.js.map",
     "index.html": "/portafolio.github.io/index.html",
-    "precache-manifest.1569fd82f6f2dd995692040875105617.js": "/portafolio.github.io/precache-manifest.1569fd82f6f2dd995692040875105617.js",
+    "precache-manifest.3f3157456143e29328b0ee5b2dd2b8f6.js": "/portafolio.github.io/precache-manifest.3f3157456143e29328b0ee5b2dd2b8f6.js",
     "service-worker.js": "/portafolio.github.io/service-worker.js",
     "static/css/2.fd277b09.chunk.css.map": "/portafolio.github.io/static/css/2.fd277b09.chunk.css.map",
     "static/css/main.d6021523.chunk.css.map": "/portafolio.github.io/static/css/main.d6021523.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.fd277b09.chunk.css",
     "static/js/2.e9e89220.chunk.js",
     "static/css/main.d6021523.chunk.css",
-    "static/js/main.bc454c4e.chunk.js"
+    "static/js/main.e6ed9b65.chunk.js"
   ]
 }

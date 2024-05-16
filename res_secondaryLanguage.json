@@ -87,37 +87,23 @@
     ],
     "experience": [
       {
-        "company": "Parque",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
+        "title": "Pasantía",
+        "years": "09/2023 - 04/2024",
+        "company": [
+          "Parque del Café"
         ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+        "description": [
+          "REST API"
         ]
       },
       {
-        "company": "Serros Solutions",
         "title": "Intern",
         "years": "01.2018 - 09.2019",
-        "mainTech": [
+        "company": [
           "Angular 7/8"
         ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "description": [
+          "RxJS"
         ]
       }
     ],
@@ -141,7 +127,7 @@
         ]
       },
       {
-        "title": "Curso intensivo de inglés",
+        "title": "Curso Avanzado de Idioma Inglés",
         "mainTech": [
           "BNC Colombo Americano"
         ],
