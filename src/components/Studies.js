@@ -37,7 +37,7 @@ class Studies extends Component {
                             color: "#fff",
                             textAlign: "center",
                         }}
-                        icon={<i className="fab fa-python study-icon"></i>}
+                        icon={<i className="fas fa-graduation-cap study-icon"></i>}
                         key={i}
                     >
                         <div style={{ textAlign: "left", marginBottom: "4px" }}>
