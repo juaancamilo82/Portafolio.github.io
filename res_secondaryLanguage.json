@@ -13,7 +13,7 @@
     },
   "cv": {
     "url": "https://raw.githubusercontent.com/juaancamilo82/portafolio.github.io/ca63b7aae61d693fc7a39135d7dd5691a7962b22/public/CV_JuanCamiloPe%C3%B1aMarinEspa%C3%B1ol.pdf",
-    "description": "Descarga aquí mi hoja de vida",
+    "description": "Descarga aquí mi hoja de vida en español",
     "function": "Descargar"
   },
     "projects": [
@@ -123,13 +123,13 @@
     ],
     "studies": [
       {
-        "institution": "EAM",
+        "institution": "",
         "title": "Ingeniero de sofware",
         "years": "10.2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "EAM"
         ],
-        "technologies": [
+        "description": [
           "REST API",
           "RxJS",
           "JavaScript",
@@ -142,21 +142,16 @@
         ]
       },
       {
-        "institution": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "institution": "Colegio Nuestra Señora de Fátima",
+        "title": "Bachiller académico",
+        "years": "2017",
         "mainTech": [
-          "Angular 7/8"
+          "Colegio Nuestra Señora de Fátima"
         ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "description": [
+          "Bachiller académico"
+
         ]
       }
-    ],
-  "cv_section_name": "Resume",
-  "cv_url": "/CV_JuanCamiloPeñaMarinEspañol.pdf"
+    ]
   }
