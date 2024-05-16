@@ -123,34 +123,21 @@
     ],
     "studies": [
       {
-        "institution": "",
         "title": "Ingeniero de sofware",
-        "years": "10.2019 - present",
         "mainTech": [
           "EAM"
         ],
-        "description": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+        "date": [
+         "2018 - Actualmente"
         ]
       },
       {
-        "institution": "Colegio Nuestra Señora de Fátima",
         "title": "Bachiller académico",
-        "years": "2017",
         "mainTech": [
           "Colegio Nuestra Señora de Fátima"
         ],
-        "description": [
-          "Bachiller académico"
-
+        "date": [
+          "2017 - Finalizado"
         ]
       }
     ]
